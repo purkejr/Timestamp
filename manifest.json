@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Timestamp Clipboard",
+    "version": "1.0",
+    "description": "Copies current date to clipboard as a timestamp.",
+    "permissions": [
+        "clipboardWrite"
+    ],
+    "browser_action": {
+        "browser_style": true,
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "48": "icon48.png"
+    }
+}

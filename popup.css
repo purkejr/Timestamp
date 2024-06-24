@@ -1,0 +1,17 @@
+button {
+    padding: 20px;
+    font-size: 16px;
+    background-color: #01377D;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+   
+    text-align: center; /* Center text horizontally */
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #26B170;
+}
