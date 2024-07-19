@@ -1,17 +1,16 @@
 {
     "manifest_version": 2,
     "name": "Timestamp Clipboard",
-    "version": "1.0",
-    "description": "Copies current date to clipboard as a timestamp.",
+    "version": "1.1",
+    "description": "Copies current date and name to clipboard as a timestamp.",
     "permissions": [
-        "clipboardWrite"
+        "clipboardWrite",
+        "storage"
     ],
     "browser_action": {
-        "browser_style": true,
         "default_popup": "popup.html"
     },
     "icons": {
         "48": "icon48.png"
-    },
-    "update_url": "https://github.com/purkejr/Timestamp/updates.json"
+    }
 }

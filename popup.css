@@ -1,17 +1,18 @@
 button {
-    padding: 20px;
+    padding: 10px 20px; /* Adjust padding for better look */
     font-size: 16px;
     background-color: #01377D;
     color: white;
     border: none;
     cursor: pointer;
     border-radius: 5px;
-    margin: 10px;
-   
-    text-align: center; /* Center text horizontally */
+    margin: 10px auto; /* Center button horizontally */
+    text-align: center;
+    display: block; /* Make button fill available width */
     transition: background-color 0.3s ease;
-}
-
-button:hover {
+  }
+  
+  button:hover {
     background-color: #26B170;
-}
+  }
+  
